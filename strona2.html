@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>My first website</title>
+        <link rel="stylesheet" href="style.css">
+      
+      <style>
+		h1 {
+           background-color: gray;
+			}
+        h2 {
+           font-size:36px;
+           color:blue;
+			}
+        p {
+           font-size:24px;
+           	}
+	  </style>
+      
+    </head>
+    <body>
+      <h1>Witaj na mojej pierwszej stronie</h1>
+            
+      <img src="https://cdn.create.vista.com/api/media/medium/154667418/stock-photo-grey-haired-scientist-holding-flask?token=" alt="Tu powinien być mój avatar" title="Naukowiec" width=250 height=200>
+      <h2>Kontakt</h2>
+      <ul>
+    	<li>e-mail: a.kula@onet.pl</li>
+    	<li>telefon: 777 888 999</li>
+	  </ul>
+	
+      
+      <form action = "/cgi-bin/hello_get.cgi" method = "get">
+         <p><strong>Wyślij wiadomość</strong></p> 
+              
+         <textarea rows = "3" cols = "50" name = "description">
+            Napisz w czym Ci pomóc
+         </textarea>
+         
+         <input type = "submit" value = "Prześlij" />
+      </form>
+      
+    </body>
+</html>
